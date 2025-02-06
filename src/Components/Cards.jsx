@@ -18,7 +18,7 @@ function Cards() {
                 together.
             </h1>
             
-            <h1 id="main" className='h-[50%] pt-16 text-7xl' >
+            <h1 id="main" className='h-[55%] pt-16 text-7xl' >
                
             </h1>
             <h2 id="base " className='mt-4 text-sm'>
@@ -26,18 +26,18 @@ function Cards() {
             </h2>
         
         </motion.div>
-        <motion.div whileHover={{backgroundColor:"#7443ff",padding:"25px"}} className='h-400 basis-2/3 p-5 bg-zinc-800 text-white p-5 rounded-lg'>
-            <div className='h-[10%] flex text-sm justify-between'> 
+        <motion.div whileHover={{backgroundColor:"#7443ff",padding:"25px"}} className='h-[370px] basis-2/3 p-5 bg-zinc-800 text-white p-5 rounded-lg'>
+            <div className=' flex text-sm justify-between'> 
                 <h2>Get in Touch</h2>
                 <FaArrowRightLong />
             </div>
-            <h1 className='text-xl mt-3 font-semibold'>
+            <h1 className='h-[25%] text-xl mt-3 font-semibold border-box'>
                 Let's Get to it,<br/>
                 together.
             </h1>
-            <h1 id="main" className='h-[50%] pt-16 text-7xl' >
+            <div id="main" className=' pt-16 text-7xl' >
                 Start a Project
-            </h1>
+            </div>
             <h2 id="base " className='mt-4 w-fit px-4 py-2 text-sm border rounded-full'>
                 Contact us
             </h2>
