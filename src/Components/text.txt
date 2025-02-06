@@ -1,0 +1,37 @@
+
+
+// smoothness handle -- locomotive js
+1. search locomotive go to github page of locomotive
+2. install packages
+
+// framer motion -- image vala
+1. go to motion website 
+install it import scroll 
+import { useMotionValueEvent } from "framer-motion";
+code --- const { scrollY } = useScroll();
+
+    useMotionValueEvent(scrollY, "change", (latest) => {
+        console.log("Page scroll: ", latest)
+    })
+
+
+// kisi div ke upar koi div hai or tumhe neeche vale div ki cheeze ya text select karna hai than you have to do 
+pointer-events-none of upar vala div
+
+// agar hame child mai kuch change hone par parent mai kuch change karna ho to function ko parent mai banake child component mai props ke jariye bhje do or child mai jaha jis cheez ke hone se chalana ho vaha chala do
+
+// video section animate
+1. create a big div of size 1 product 
+2. create window inside that div 
+3. animate that div according to our pointer like if our pointer is at index 1 of product than animate to 23rem*1 if 2 than 23rem*2
+to animate use motion.div from framer motion apply motion.div to that div which we have to animate 
+ motion.div provides animate and initial 
+
+ initial={{y:0, x: "90%" }} animate={{ y:20+`rem`, x:"90%"}} initial sets initial posotion and animate sets animate position
+4. we have 5 other divs inside that div that moving in upper direction so that the new thing flash over prev div 
+
+// to make that animation smooth go to easing website select transition copy cubic briezer no. 
+// go to div type  transition={{ease:[0.76, 0, 0.24, 1], duration:0.4}}
+
+
+// marquee jab bhi seekhna ho isi project se seekhe 
