@@ -1,7 +1,7 @@
-# Refokus Clone
+# Refokus
 
 ## 🌐 Overview
-Refokus Clone is a frontend web project built using React, Tailwind CSS, and Framer Motion. The project replicates the design and animations of the Refokus website, showcasing modern frontend development skills with smooth animations and interactive UI elements.
+Refokus is a frontend web project built using React, Tailwind CSS, and Framer Motion. The project replicates the design and animations of the Refokus website, showcasing modern frontend development skills with smooth animations and interactive UI elements.
 
 ## 🚀 Features
 - **Smooth Animations:** Implemented using Framer Motion for fluid and interactive effects.
